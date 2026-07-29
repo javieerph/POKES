@@ -12,7 +12,15 @@ header img{height: 160px;padding: 20px 20px 20px 30px;}
 header h1{float: right;padding: 40px 100px 20px 40px;color: #2471A3;font-family: verdana;}
 
 nav{background: #5DADE2;height: 70px;}
-nav ul{text-align: center;padding-top: 20px;}
+
+.menu {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	padding-top: 18px;
+}
+nav ul{text-align: center;padding-top: 18px;}
 nav ul a{font: 20px Verdana;text-decoration: none;color: #ffffff;padding: 24px;}
 nav ul a:hover{background: #fff;color:#5DADE2;}
 
