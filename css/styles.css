@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ffffff;
+    height: 140px;
+}
+header img{height: 160px;padding: 20px 20px 20px 30px;}
+header h1{float: right;padding: 40px 100px 20px 40px;color: #2471A3;font-family: verdana;}
+
+nav{background: #5DADE2;height: 70px;}
+nav ul{text-align: center;padding-top: 20px;}
+nav ul a{font: 20px Verdana;text-decoration: none;color: #ffffff;padding: 24px;}
+nav ul a:hover{background: #fff;color:#5DADE2;}
+
+body{
+    background-image: url(3.jpeg);
+    color: var(--tex-light-gray);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+
+}
+
+.form-main{
+    min-height: 100vh;
+    padding: 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-content{
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    z-index: 1;
+
+  }
+
+  .form-content .box{
+    border: var black;
+    padding: 40px 50px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+
+  .form-content h3{
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.2;
+    color: #2471A3;
+    font-weight: 500;
+  }
+
+  .form-content form{
+    margin: 25px 0 20px;
+  }
+
+  .form-content .input-box{
+    margin: 25px;
+  }
+
+  .form-content .input-control{
+    display: block;
+    height: 45px;
+    width: 100%;
+    background-color: #f5f3e3;
+    border: none;
+    border-bottom: 1px solid #94938a;
+    font-size: 16px;
+  } 
+
+  .form-content .input-control:focus{
+    outline: none;
+  }
+
+  .form-content .input-link{
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  .form-content .btn{
+    height: 45px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 25px;
+    user-select: none;
+    background: linear-gradient(to right, #2471A3, #5DADE2);
+
+  }
+
+  footer{width: 100%;background: #084B8A;}
+  footer p{color: #fff; font: 15px Verdana; padding: 30px; text-align: center;}
+
