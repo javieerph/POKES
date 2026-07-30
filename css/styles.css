@@ -13,6 +13,8 @@ header h1{float: right;padding: 40px 100px 20px 40px;color: #2471A3;font-family:
 
 nav{background: #5DADE2;height: 70px;}
 
+/* -- MENU DESPLEGABLE --*/
+/* MENU HORIZONTAL */
 .menu {
 	list-style: none;
 	display: flex;
@@ -20,10 +22,59 @@ nav{background: #5DADE2;height: 70px;}
 	gap: 40px;
 	padding-top: 18px;
 }
-nav ul{text-align: center;padding-top: 18px;}
-nav ul a{font: 20px Verdana;text-decoration: none;color: #ffffff;padding: 24px;}
-nav ul a:hover{background: #fff;color:#5DADE2;}
 
+/* Cada item del menu */
+.menu > li {
+	position: relative;
+}
+
+/* Enlaces del menu principal */
+.menu > li > a {
+	font: 20px Verdana;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 24px;
+	display: block;
+}
+
+/* Submenu oculto */
+
+.submenu {
+	list-style: none;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	background: #2471A3;
+	display: none;
+	min-width: 160px;
+	border-radius: 0 0 5px 5px;
+}
+
+/* Items del submenu */
+
+.submenu li a {
+	display: block;
+	padding: 12px;
+	color: #fff;
+	text-decoration: none;
+	font: 16px Verdana;
+}
+
+/* Mostrar submenu al pasar el mouse */
+
+.menu li:hover .submenu {
+	display: block;
+}
+
+/* Hover del submenu */
+
+.submenu li a:hover {
+	background: #5DADE2;
+}
+
+/*nav ul{text-align: center;padding-top: 18px;}
+nav ul a{font: 20px Verdana;text-decoration: none;color: #ffffff;padding: 24px;}
+nav ul a:hover{background: #fff;color:#5DADE2;}*/
 body{
     background-image: url(3.jpeg);
     color: var(--tex-light-gray);
