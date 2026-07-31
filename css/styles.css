@@ -11,7 +11,7 @@ header{
 header img{height: 160px;padding: 20px 20px 20px 30px;}
 header h1{float: right;padding: 40px 100px 20px 40px;color: #2471A3;font-family: verdana;}
 
-nav{background: #5DADE2;height: 70px;}
+nav{background: #5DADE2;height: 60px;}
 
 /* -- MENU DESPLEGABLE --*/
 /* MENU HORIZONTAL */
@@ -20,7 +20,7 @@ nav{background: #5DADE2;height: 70px;}
 	display: flex;
 	justify-content: center;
 	gap: 40px;
-	padding-top: 18px;
+	padding-top: 1px;
 }
 
 /* Cada item del menu */
@@ -72,9 +72,6 @@ nav{background: #5DADE2;height: 70px;}
 	background: #5DADE2;
 }
 
-/*nav ul{text-align: center;padding-top: 18px;}
-nav ul a{font: 20px Verdana;text-decoration: none;color: #ffffff;padding: 24px;}
-nav ul a:hover{background: #fff;color:#5DADE2;}*/
 body{
     background-image: url(3.jpeg);
     color: var(--tex-light-gray);
@@ -87,76 +84,13 @@ body{
 }
 
 .form-main{
-    min-height: 100vh;
-    padding: 60px 15px;
+    min-height: calc(100vh - 205px);
+    padding: 40px 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
-  }
-
-  .form-content{
-    width: 100%;
-    max-width: 450px;
-    position: relative;
-    z-index: 1;
-
-  }
-
-  .form-content .box{
-    border: var black;
-    padding: 40px 50px;
-    border-radius: 20px;
-    background-color: #fff;
-  }
-
-  .form-content h3{
-    font-size: 28px;
-    text-align: center;
-    line-height: 1.2;
-    color: #2471A3;
-    font-weight: 500;
-  }
-
-  .form-content form{
-    margin: 25px 0 20px;
-  }
-
-  .form-content .input-box{
-    margin: 25px;
-  }
-
-  .form-content .input-control{
-    display: block;
-    height: 45px;
-    width: 100%;
-    background-color: #f5f3e3;
-    border: none;
-    border-bottom: 1px solid #94938a;
-    font-size: 16px;
-  } 
-
-  .form-content .input-control:focus{
-    outline: none;
-  }
-
-  .form-content .input-link{
-    margin-top: 10px;
-    text-align: right;
-  }
-
-  .form-content .btn{
-    height: 45px;
-    width: 100%;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-    font-family: inherit;
-    cursor: pointer;
-    border-radius: 25px;
-    user-select: none;
-    background: linear-gradient(to right, #2471A3, #5DADE2);
-
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   footer{width: 100%;background: #084B8A;}
