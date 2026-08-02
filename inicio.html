@@ -14,7 +14,9 @@
 	    <li>	
             	<a href="#">Clientes</a>
 		<ul class="submenu">
-			<li><a href="#">Crear</a></li>
+			<li>
+			    <a href="#" id="clientes-crear">Crear</a>
+			</li>
 		</ul>
 	    </li>
 	    <li>	           
@@ -32,8 +34,22 @@
     	<section id="form-clientes" class="form-clientes oculto">
 	    <h2>Registrar cliente</h2>
 	        <form id="form-crear-cliente">
-		    <label>Nombre *</label>
+		    <label>Nombre: *</label>
 		    <input type="text" name="nombre" required>
+
+		    <label>Id tipo: </label>
+		    <input type="text" name="id-tipo">
+
+		    <label>Número Id: </label>
+		    <input type="text" name="id-numero">
+
+		    <label>Teléfono: *</label>
+		    <input type="text" name="telefono" required>
+
+		    <label>Dirección: *</label>
+		    <input type="text" name="direccion" required>
+		  
+		    <button type="submit">Guardar cliente</button>
 		</form>
     	</section>
     </section>

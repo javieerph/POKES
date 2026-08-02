@@ -93,6 +93,56 @@ body{
     margin-bottom: 30px;
   }
 
+/* Oculta la seleccion */
+.oculto {
+	display: none;
+}
+
+/* Estilo del formulario */
+.form-clientes {
+	background: #fff;
+	padding: 30px;
+	width: 400px;
+	margin: 40px auto;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #0003;
+}
+
+.form-clientes h2 {
+	text-align: center;
+	color: #2471A3;
+	margin-bottom: 20px;
+}
+
+.form-clientes label {
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.form-clientes input {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.form-clientes button {
+	margin-top: 20px;
+	width: 100%;
+	padding: 12px;
+	background: #2471A3;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.form-clientes button:hover {
+	background: #5DADE2;
+}
+
   footer{width: 100%;background: #084B8A;}
   footer p{color: #fff; font: 15px Verdana; padding: 30px; text-align: center;}
 
