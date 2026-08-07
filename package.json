@@ -1,0 +1,22 @@
+{
+  "name": "pokes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "bugs": {
+    "url": "https://github.com/javieerph/POKES/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javieerph/POKES.git"
+  },
+  "license": "ISC",
+  "author": "Edgar Romero",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
